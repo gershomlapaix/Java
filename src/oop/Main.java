@@ -5,5 +5,10 @@ public class Main {
         Salary salary = new Salary("Kareem", "Kgl",120, 100000);
 
         salary.computePay();
+
+
+//        interfaces
+        GreetingsImpl greetings = new GreetingsImpl();
+        greetings.sayHello();
     }
 }
