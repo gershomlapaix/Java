@@ -6,7 +6,6 @@ public class Main {
             int a[] = new int[7];
             a[9] = 30/0;
             System.out.println("Statement in try block");
-
         }
 
         catch (ArrayIndexOutOfBoundsException ex){
