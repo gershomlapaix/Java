@@ -23,6 +23,9 @@ public class Main {
         }
 
         System.out.println(Main.returningMethod());
+
+//        Throw
+        CheckStudent.checkStudentRegister(10,42);
     }
 
     public static int returningMethod(){
