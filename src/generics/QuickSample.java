@@ -9,6 +9,10 @@ public class QuickSample <T,U>{
         this.obj2 = obj2;
     }
 
+    public T getObj1(){
+        return this.obj1;
+    }
+
     public void print(){
         System.out.println(obj1);
         System.out.println(obj2);
@@ -17,5 +21,7 @@ public class QuickSample <T,U>{
     public static void main(String[] args) {
         QuickSample<String, Integer> sample= new QuickSample("Rwanda", 1283);
         sample.print();
+
+        System.out.println(sample.getObj1());
     }
 }
