@@ -22,5 +22,16 @@ public class Main {
         finally {
             System.out.println("I am the final");
         }
+
+        System.out.println(Main.returningMethod());
+    }
+
+    public static int returningMethod(){
+        try{
+            return  110;
+        }
+        finally {
+            System.out.println("This is the second final");
+        }
     }
 }
