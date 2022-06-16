@@ -19,5 +19,8 @@ public class Main {
         catch (Exception e){
             System.out.println("SOme other exception");
         }
+        finally {
+            System.out.println("I am the final");
+        }
     }
 }
