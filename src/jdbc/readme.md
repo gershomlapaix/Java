@@ -15,5 +15,3 @@ JDBC represents statements using one of the following classes:
  => Query statements return a JDBC row result set. Individual columns in a row are retrieved either by name or by column 
     number. 
  => DBC connections are often managed via a `connection pool` rather than obtained directly from the driver.
-
-
